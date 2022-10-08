@@ -1,0 +1,59 @@
+# Filter snippets contain a few filter rules.
+# Snippets of configuration will be saved in the "Profiles" subdirectory of "Quantumult X".
+# You can link the snippets to the main configuration profile.
+# You can check the sample snippets at https://raw.githubusercontent.com/crossutility/Quantumult-X/master/filter.snippet
+
+# local host
+ip-cidr, 10.0.0.0/8, direct
+ip-cidr, 127.0.0.0/8, direct
+ip-cidr, 172.16.0.0/12, direct
+ip-cidr, 192.168.0.0/16, direct
+ip-cidr, 224.0.0.0/24, direct
+
+
+# 字节
+host-keyword, byted, direct
+host-keyword, bytedance, direct
+host-keyword, feishu, direct
+host-keyword, lark, direct
+
+# HSBC
+host-suffix, hsbc.com, direct
+host-suffix, hsbc.com.hk, direct
+
+# 腾讯
+host-suffix, qq.com, direct
+ip-cidr, 103.142.0.0/12, direct
+
+# apple
+host-suffix, apple.com, direct
+host-suffix, icloud.com, direct
+
+# rbt
+host-suffix, repeatfund.com, proxy
+
+# bn
+host-suffix, binance.com, proxy
+host-suffix, bnappzh.cc, proxy
+host-suffix, bnappzh.mobi, direct
+
+# ftx
+host-suffix, ftx.com, TW
+
+# pornhub
+host-keyword, pornhub, proxy
+
+# cn
+host-suffix, com.cn, direct
+
+host-suffix, googleapis.com, proxy
+host-suffix, instagram.com, proxy
+host-suffix, cdninstagram.com, proxy
+host-suffix, fbcdn.net, proxy
+host-suffix, facebook.com, proxy
+host-suffix, fb.com, proxy
+host-suffix, twitch.tv, proxy
+host-suffix, gstatic.com, proxy
+host-keyword, google, proxy
+geoip, cn, direct
+final, proxy
