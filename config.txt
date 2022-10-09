@@ -38,7 +38,7 @@ host-suffix, bnappzh.cc, proxy
 host-suffix, bnappzh.mobi, direct
 
 # ftx
-host-suffix, ftx.com, TW
+host-suffix, ftx.com, JP
 
 # pornhub
 host-keyword, pornhub, 4X
