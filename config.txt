@@ -11,6 +11,10 @@ ip-cidr, 192.168.0.0/16, direct
 ip-cidr, 224.0.0.0/24, direct
 
 
+# safari 防欺诈
+host-suffix, urlsec.qq.com, reject
+host-suffix, safebrowsing.googleapis-cn.com, reject
+
 # 字节
 host-keyword, byted, direct
 host-keyword, bytedance, direct
@@ -33,12 +37,15 @@ host-suffix, icloud.com, direct
 host-suffix, repeatfund.com, proxy
 
 # bn
-host-suffix, binance.com, proxy
-host-suffix, bnappzh.cc, proxy
+host-suffix, binance.com, HK
+host-suffix, bnappzh.cc, HK
 host-suffix, bnappzh.mobi, direct
 
 # ftx
 host-suffix, ftx.com, JP
+
+# kraken
+host-suffix, kraken.com, HK
 
 # pornhub
 host-keyword, pornhub, 4X
@@ -46,14 +53,29 @@ host-keyword, pornhub, 4X
 # cn
 host-suffix, com.cn, direct
 
+# google
 host-suffix, googleapis.com, proxy
+host-suffix, gstatic.com, proxy
+host-keyword, google, proxy
+
+# twitter
+host-keyword, twitter, proxy
+host-suffix, twimg.com, proxy
+
+# instagram
 host-suffix, instagram.com, proxy
 host-suffix, cdninstagram.com, proxy
+
+# fb
 host-suffix, fbcdn.net, proxy
 host-suffix, facebook.com, proxy
 host-suffix, fb.com, proxy
+
+# twitch
 host-suffix, twitch.tv, proxy
-host-suffix, gstatic.com, proxy
-host-keyword, google, proxy
+
+# geoip cn
 geoip, cn, direct
+
+# final
 final, proxy
