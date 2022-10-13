@@ -34,7 +34,7 @@ host-suffix, apple.com, direct
 host-suffix, icloud.com, direct
 
 # rbt
-host-suffix, repeatfund.com, proxy
+host-suffix, repeatfund.com, 4X
 
 # bn
 host-suffix, binance.com, HK
@@ -54,28 +54,28 @@ host-keyword, pornhub, 4X
 host-suffix, com.cn, direct
 
 # google
-host-suffix, googleapis.com, proxy
-host-suffix, gstatic.com, proxy
-host-keyword, google, proxy
+host-suffix, googleapis.com, 4X
+host-suffix, gstatic.com, 4X
+host-keyword, google, 4X
 
 # twitter
-host-keyword, twitter, proxy
-host-suffix, twimg.com, proxy
+host-keyword, twitter, 4X
+host-suffix, twimg.com, 4X
 
 # instagram
-host-suffix, instagram.com, proxy
-host-suffix, cdninstagram.com, proxy
+host-suffix, instagram.com, 4X
+host-suffix, cdninstagram.com, 4X
 
 # fb
-host-suffix, fbcdn.net, proxy
-host-suffix, facebook.com, proxy
-host-suffix, fb.com, proxy
+host-suffix, fbcdn.net, 4X
+host-suffix, facebook.com, 4X
+host-suffix, fb.com, 4X
 
 # twitch
-host-suffix, twitch.tv, proxy
+host-suffix, twitch.tv, 4X
 
 # geoip cn
 geoip, cn, direct
 
 # final
-final, proxy
+final, 4X
