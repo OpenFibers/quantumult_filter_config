@@ -34,48 +34,48 @@ host-suffix, apple.com, direct
 host-suffix, icloud.com, direct
 
 # rbt
-host-suffix, repeatfund.com, 4X
+host-suffix, repeatfund.com, 4X, force-remote-dns
 
 # bn
-host-suffix, binance.com, HK
-host-suffix, bnappzh.cc, HK
+host-suffix, binance.com, HK, force-remote-dns
+host-suffix, bnappzh.cc, HK, force-remote-dns
 host-suffix, bnappzh.mobi, direct
 
 # ftx
-host-suffix, ftx.com, JP
+host-suffix, ftx.com, JP, force-remote-dns
 
 # kraken
-host-suffix, kraken.com, HK
+host-suffix, kraken.com, HK, force-remote-dns
 
 # pornhub
-host-keyword, pornhub, 4X
+host-keyword, pornhub, 4X, force-remote-dns
 
 # cn
 host-suffix, com.cn, direct
 
 # google
-host-suffix, googleapis.com, 4X
-host-suffix, gstatic.com, 4X
-host-keyword, google, 4X
+host-suffix, googleapis.com, 4X, force-remote-dns
+host-suffix, gstatic.com, 4X, force-remote-dns
+host-keyword, google, 4X, force-remote-dns
 
 # twitter
-host-keyword, twitter, 4X
-host-suffix, twimg.com, 4X
+host-keyword, twitter, 4X, force-remote-dns
+host-suffix, twimg.com, 4X, force-remote-dns
 
 # instagram
-host-suffix, instagram.com, 4X
-host-suffix, cdninstagram.com, 4X
+host-suffix, instagram.com, 4X, force-remote-dns
+host-suffix, cdninstagram.com, 4X, force-remote-dns
 
 # fb
-host-suffix, fbcdn.net, 4X
-host-suffix, facebook.com, 4X
-host-suffix, fb.com, 4X
+host-suffix, fbcdn.net, 4X, force-remote-dns
+host-suffix, facebook.com, 4X, force-remote-dns
+host-suffix, fb.com, 4X, force-remote-dns
 
 # twitch
-host-suffix, twitch.tv, 4X
+host-suffix, twitch.tv, 4X, force-remote-dns
 
 # geoip cn
 geoip, cn, direct
 
 # final
-final, 4X
+final, 4X, force-remote-dns
