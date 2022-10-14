@@ -78,4 +78,4 @@ host-suffix, twitch.tv, 4X, force-remote-dns
 geoip, cn, direct
 
 # final
-final, 4X, force-remote-dns
+final, 4X
