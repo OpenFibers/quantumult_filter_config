@@ -57,6 +57,10 @@ host-suffix, com.cn, direct
 host-suffix, googleapis.com, 4X, force-remote-dns
 host-suffix, gstatic.com, 4X, force-remote-dns
 host-keyword, google, 4X, force-remote-dns
+host-keyword, youtube, 4X, force-remote-dns
+
+# discord
+host-keyword, discord, 4X, force-remote-dns
 
 # twitter
 host-keyword, twitter, 4X, force-remote-dns
