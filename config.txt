@@ -80,6 +80,12 @@ host-suffix, fbcdn.net, 4X, force-remote-dns
 host-suffix, facebook.com, 4X, force-remote-dns
 host-suffix, fb.com, 4X, force-remote-dns
 
+# epochtimes.com
+host-keyword, epochtimes, 4X, force-remote-dns
+
+# 香港短信
+host-keyword, sms, HK, force-remote-dns
+
 # twitch
 host-suffix, twitch.tv, 4X, force-remote-dns
 
@@ -87,4 +93,4 @@ host-suffix, twitch.tv, 4X, force-remote-dns
 geoip, cn, direct
 
 # final
-final, 4X
+final, HK
