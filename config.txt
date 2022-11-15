@@ -81,7 +81,7 @@ host-suffix, facebook.com, 4X, force-remote-dns
 host-suffix, fb.com, 4X, force-remote-dns
 
 # SUI
-host-suffix, sui.io, 4X, force-remote-dns
+host-suffix, sui.io, proxy, force-remote-dns
 host-suffix, plausible.io, 4X, force-remote-dns
 
 # epochtimes.com
