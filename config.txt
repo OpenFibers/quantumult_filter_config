@@ -56,6 +56,11 @@ host-suffix, ftx.com, JP, force-remote-dns
 # kraken
 host-suffix, kraken.com, HK, force-remote-dns
 
+# defi
+host-keyword, pancakeswap, HK, force-remote-dns
+host-keyword, uniswap, HK, force-remote-dns
+host-keyword, swap, HK, force-remote-dns
+
 # pornhub
 host-keyword, pornhub, 4X, force-remote-dns
 
