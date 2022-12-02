@@ -20,10 +20,19 @@ host-keyword, byted, direct
 host-keyword, bytedance, direct
 host-keyword, feishu, direct
 host-keyword, lark, direct
+host-suffix, snssdk.com, direct
+host-suffix, toutiao.com, direct
+host-suffix, zijieapi.com, direct
+
+# 友盟
+host-suffix, cnzz.com, reject
 
 # HSBC
 host-suffix, hsbc.com, direct
 host-suffix, hsbc.com.hk, direct
+
+# 钉钉
+host-suffix, dingtalkapps.com, direct
 
 # 腾讯
 host-suffix, qq.com, direct
