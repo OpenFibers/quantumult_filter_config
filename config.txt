@@ -81,6 +81,9 @@ host-keyword, hcaptcha, 4X, force-remote-dns
 host-keyword, github, 4X, force-remote-dns
 host-keyword, githubusercontent, 4X, force-remote-dns
 
+# openai
+host-suffix, openai.com, US, force-remote-dns
+
 # twitter
 host-keyword, twitter, 4X, force-remote-dns
 host-suffix, twimg.com, 4X, force-remote-dns
