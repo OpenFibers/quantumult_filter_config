@@ -43,7 +43,7 @@ host-suffix, apple.com, direct
 host-suffix, icloud.com, direct
 
 # rbt
-host-suffix, repeatfund.com, 4X, force-remote-dns
+host-suffix, repeatfund.com, proxy, force-remote-dns
 
 # bn
 host-suffix, binance.com, HK, force-remote-dns
@@ -62,53 +62,53 @@ host-keyword, uniswap, HK, force-remote-dns
 host-keyword, swap, HK, force-remote-dns
 
 # pornhub
-host-keyword, pornhub, 4X, force-remote-dns
+host-keyword, pornhub, proxy, force-remote-dns
 
 # cn
 host-suffix, com.cn, direct
 
 # google
-host-suffix, googleapis.com, 4X, force-remote-dns
-host-suffix, gstatic.com, 4X, force-remote-dns
-host-keyword, google, 4X, force-remote-dns
-host-keyword, youtube, 4X, force-remote-dns
+host-suffix, googleapis.com, proxy, force-remote-dns
+host-suffix, gstatic.com, proxy, force-remote-dns
+host-keyword, google, proxy, force-remote-dns
+host-keyword, youtube, proxy, force-remote-dns
 
 # discord
-host-keyword, discord, 4X, force-remote-dns
-host-keyword, hcaptcha, 4X, force-remote-dns
+host-keyword, discord, proxy, force-remote-dns
+host-keyword, hcaptcha, proxy, force-remote-dns
 
 # github
-host-keyword, github, 4X, force-remote-dns
-host-keyword, githubusercontent, 4X, force-remote-dns
+host-keyword, github, proxy, force-remote-dns
+host-keyword, githubusercontent, proxy, force-remote-dns
 
 # openai
 host-suffix, openai.com, US, force-remote-dns
 
 # twitter
-host-keyword, twitter, 4X, force-remote-dns
-host-suffix, twimg.com, 4X, force-remote-dns
+host-keyword, twitter, proxy, force-remote-dns
+host-suffix, twimg.com, proxy, force-remote-dns
 
 # instagram
-host-suffix, instagram.com, 4X, force-remote-dns
-host-suffix, cdninstagram.com, 4X, force-remote-dns
+host-suffix, instagram.com, proxy, force-remote-dns
+host-suffix, cdninstagram.com, proxy, force-remote-dns
 
 # fb
-host-suffix, fbcdn.net, 4X, force-remote-dns
-host-suffix, facebook.com, 4X, force-remote-dns
-host-suffix, fb.com, 4X, force-remote-dns
+host-suffix, fbcdn.net, proxy, force-remote-dns
+host-suffix, facebook.com, proxy, force-remote-dns
+host-suffix, fb.com, proxy, force-remote-dns
 
 # SUI
 host-suffix, sui.io, proxy, force-remote-dns
-host-suffix, plausible.io, 4X, force-remote-dns
+host-suffix, plausible.io, proxy, force-remote-dns
 
 # epochtimes.com
-host-keyword, epochtimes, 4X, force-remote-dns
+host-keyword, epochtimes, proxy, force-remote-dns
 
 # 香港短信
 host-keyword, sms, HK, force-remote-dns
 
 # twitch
-host-suffix, twitch.tv, 4X, force-remote-dns
+host-suffix, twitch.tv, proxy, force-remote-dns
 
 # geoip cn
 geoip, cn, direct
